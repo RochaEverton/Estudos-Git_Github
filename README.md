@@ -8,19 +8,59 @@ Repositório para armazenar resumos de estudos referentes a Git e Github.
 - [Git/Docs](https://git-scm.com/doc)
 - [Github/Docs](https://docs.github.com/pt)
 
-### 💻 Comandos mais usados:
-| comando | descrição | opções|
-|---------|-----------|-------|
-|git init| Iniciar Repositório ||
-|git clone <URL>|clonar Repositório|Alterar nome do Repositório|
-|git status|verifica o status dos arquivos||
-|git add <Arquivo>|Informar os arquivos que serão submetidos |"*"ou"." insere todos os arquivos modificados/criados|
-|git commit -m"<message>|Adiciona uma messagem ao commit|--amend altera a messagem do ultimo commit.|
-|git log|Histórico de commits||
-|git reflog| Histórico de commits com referências||
-|git restore <arquivo>|Desfaz as alterações||
-|git reset --<opção> <hash>|Desfazer o ultimo commit|--soft --mixed --hard|
-|git push|Envia as alterações para o repositório remoto||
+### 💻 Comandos mais usados Repositório Local:
+```
+git init 
+```
+- Iniciar uma repositório local.
+```
+git config 
+```
+- Verifica as configurações. (opções: --global / --local / --get)
+```
+git status 
+```
+- Verifica os arquivos "preparados" na área de Stage. 
+```
+git add <arquivo>
+```
+- Informa os arquivos que serão submetidos. (opções: "." ou "*" insere todos os arquivos modificados/criados).
+```
+git commit
+```
+- Salvar os arquivos no repositório local. (opção -m"message" insere uma mensagem com informações referentes ao commit).
+```
+git log
+```
+- Verifica o histórico de commits.
+```
+git reflog
+```
+- Verifica o histórico de commits com referências.
+```
+git restore <arquivo>
+```
+- Desfaz alterações.
+```
+git reset <hash>
+```
+- Alterações em commits. (opções: --soft / --mixed / --hard).
+```
+
+### 💻 Comandos mais usados Repositório Remoto:
+```
+git clone <URL>
+```
+- Clonar um repositório remoto.
+```
+git remote set-url <URL>
+```
+- Altera a URL do repositório remoto.
+```
+git push origin main
+```
+- Envia as alterações para o repostório remoto. (opções: <origin>refere-se ao repositório remoto <main> refere-se a branch)
+
 
 ### ⚠️ Lembretes importantes:
 ```
@@ -37,3 +77,7 @@ Repositório para armazenar resumos de estudos referentes a Git e Github.
 rm -rf .git 
 ```
 - Remove recursivamente o versionamento da pasta junto com seu conteúdo.
+```
+ssh -T git@github.com
+```
+- testa a autenticação das chaves SSH.
