@@ -15,8 +15,11 @@ Repositório para armazenar resumos de estudos referentes a Git e Github.
 |git clone <URL>|clonar Repositório|Alterar nome do Repositório|
 |git status|verifica o status dos arquivos||
 |git add <Arquivo>|Informar os arquivos que serão submetidos |"*"ou"." insere todos os arquivos modificados/criados|
-|git commit -m"<message>|Adiciona uma messagem ao commit||
-|git log|verifica os logs do repositório||
+|git commit -m"<message>|Adiciona uma messagem ao commit|--amend altera a messagem do ultimo commit.|
+|git log|Histórico de commits||
+|git reflog| Histórico de commits com referências||
+|git restore <arquivo>|Desfaz as alterações||
+|git reset --<opção> <hash>|Desfazer o ultimo commit|--soft --mixed --hard|
 |git push|Envia as alterações para o repositório remoto||
 
 ### ⚠️ Lembretes importantes:
@@ -29,3 +32,8 @@ Repositório para armazenar resumos de estudos referentes a Git e Github.
 .gitkeep 
 ```
 - Git não reconhece diretórios vázios por convenção é inserido o .gitkeep dentro dos diretórios que desejamos que sejam visíveis mesmo se for um diretório vazio.
+
+```
+rm -rf .git 
+```
+- Remove recursivamente o versionamento da pasta junto com seu conteúdo.
