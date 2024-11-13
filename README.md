@@ -4,9 +4,6 @@ Repositório para armazenar resumos de estudos referentes a Git e Github.
 
 [Github - Everton Rocha](https://github.com/RochaEverton)
 
-## 📖 Documentação Oficial:
-- [Git/Docs](https://git-scm.com/doc)
-- [Github/Docs](https://docs.github.com/pt)
 
 ## Guia de comandos mais usados: 
 
@@ -55,3 +52,11 @@ rm -rf .git
 ```
 ssh -T git@github.com
 ```
+
+
+## 📖 Documentação Oficial:
+
+- [Git/Docs](https://git-scm.com/doc)
+- [Github/Docs](https://docs.github.com/pt)
+
+⚠️ Em caso de dúvidas sempre consultar a documentação oficial onde é possivel encontrar informações detalhadas e completas de cada comando.
