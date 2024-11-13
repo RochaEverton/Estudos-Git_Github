@@ -45,7 +45,7 @@ git restore <arquivo>
 git reset <hash>
 ```
 - Alterações em commits. (opções: --soft / --mixed / --hard).
-```
+
 
 ### 💻 Comandos mais usados Repositório Remoto:
 ```
