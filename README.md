@@ -10,9 +10,29 @@ Repositório para armazenar resumos de estudos referentes a Git e Github.
 
 ## Guia de comandos mais usados: 
 
-### 💻 [Comandos mais usados Repositório Local.](ComandosLocais.md)
+### 💻 Comandos Repositório Local.
 
-### 💻 [Comandos mais usados Repositório Remoto.](ComandosRemoto.md)
+|Lista de Comandos mais usados|Descrição|
+|-------|---------|
+|git init|inicia o repositório|
+|git config|configurações do git|
+|git status|verifica o estado dos arquivos|
+|git add <arquivo>|adiciona os arquivos ao Staged|
+|git commit -m"msg"|salva os arquivos localmente|
+
+
+[Lista detalhada de comandos Repositório Local.](ComandosLocais.md)
+
+### 💻 Comandos Repositório Remoto.
+
+|Lista de Comandos mais usados|Descrição|
+|-------|---------|
+|git clone <URL>|clonar repositório remoto|
+|git remote set-url <URL>|Altera a URL do repositório remoto|
+|git push origin main|Envia as alterações para o repostório remoto|
+|git pull origin main|Solicita as alterações do repositório remoto|
+
+[Lista detalhada de comandos Repositório Remoto.](ComandosRemoto.md)
 
 ## ⚠️ Lembretes importantes:
 
