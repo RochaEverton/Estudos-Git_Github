@@ -4,26 +4,15 @@ Repositório para armazenar resumos de estudos referentes a Git e Github.
 
 [Github - Everton Rocha](https://github.com/RochaEverton)
 
-### 📖 Documentação Oficial:
+## 📖 Documentação Oficial:
 - [Git/Docs](https://git-scm.com/doc)
 - [Github/Docs](https://docs.github.com/pt)
 
-### 💻 [Comandos mais usados Repositório Local:](ComandosLocais.md)
+## Guia de comnados mais usados: 
 
-### 💻 Comandos mais usados Repositório Remoto:
-```
-git clone <URL>
-```
-- Clonar um repositório remoto.
-```
-git remote set-url <URL>
-```
-- Altera a URL do repositório remoto.
-```
-git push origin main
-```
-- Envia as alterações para o repostório remoto. (opções: <origin>refere-se ao repositório remoto <main> refere-se a branch)
+###💻 [Comandos mais usados Repositório Local:](ComandosLocais.md)
 
+### 💻 Comandos mais usados Repositório Remoto:(ComandosRemoto.md).
 
 ### ⚠️ Lembretes importantes:
 ```
